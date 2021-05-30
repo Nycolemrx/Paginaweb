@@ -1,0 +1,699 @@
+<html lang="es"> 
+
+<head> 
+
+<meta charset="UTF-8"> 
+
+<mega name="descriotion" content="Este es un supermercado para vegetarianos"> 
+
+<meta name="keyword" content="supermercado, vegetarianos, ofertas"> 
+
+ 
+
+<title>PRODUCTOS </title> 
+
+</head> 
+
+<body background="ilustraciones/fondo.jpg" bgcolor="#B7CBBF" text="black"> 
+
+<center><table width="950"><tr><td> 
+
+<br> 
+
+<img src="Ilustraciones/LOGO.png" alt="Nuestro logo" width="140" height="125"> 
+
+</br> 
+
+<a href="supermarket.html"> 
+
+<div align="center"> <img src="home/MENU.png" alt="Menu principal" width="125" height="80"> </a> 
+
+<a href="productos.html"> 
+
+<img src="home/PRODUCTOS.png" alt="Conoce nuestros productos" width="125" height="80"> </a> 
+
+<a href="https://www.google.com.gt/maps/place/Galerias+La+Pradera/@14.5797894,-90.4986635,16z/data=!4m5!3m4!1s0x8589a39bada6ad3d:0x2b90f785d3d041a6!8m2!3d14.5796604!4d-90.4951722"> 
+
+<img src="home/Ubicacion.png"  alt="Ofertas de temporada" width="125" height="80"></a> 
+
+<a href="conocenos.html"> 
+
+<img src="home/CONOCENOS.png" alt="Quienes somos" width="125" height="80"> </a> 
+
+<br> <br> 
+
+<center> 
+
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> 
+
+<script>
+
+          window.onload = function () { 
+
+            // Variables 
+
+            const baseDeDatos = [ 
+
+                { 
+
+                    id: 1, 
+
+                    nombre: 'concetrado para perro', 
+
+                    precio: 35, 
+
+                    imagen: 'ilustraciones/concentrado para perro.jpg' 
+
+                }, 
+
+                { 
+
+                    id: 2, 
+
+                    nombre: 'concentrado para perro Adulto', 
+
+                    precio: 25, 
+
+                    imagen: 'ilustraciones/Concentrado adulto.png' 
+
+                }, 
+
+                { 
+
+                    id: 3, 
+
+                    nombre: 'Concentrado para gatos', 
+
+                    precio: 35.51, 
+
+                    imagen: 'ilustraciones/concentrado gatos 1.jpg' 
+
+                }, 
+
+                { 
+
+                    id: 4, 
+
+                    nombre: 'Concentrado Puritina', 
+
+                    precio: 65.65, 
+
+                    imagen: 'ilustraciones/Puritina.jpg' 
+
+                } 
+
+                , 
+
+                { 
+
+                    id: 5, 
+
+                    nombre: 'Comida para tortugas', 
+
+                    precio: 36.21, 
+
+                    imagen: 'ilustraciones/Tortuga.jpg' 
+
+                } 
+
+                , 
+
+                { 
+
+                    id: 6, 
+
+                    nombre: 'Concentrado de Hamster', 
+
+                    precio: 35.21, 
+
+                    imagen: 'ilustraciones/Hamster.jpg' 
+
+                }, 
+
+                { 
+
+                    id: 7, 
+
+                    nombre: 'Arena para gatos', 
+
+                    precio: 65.32, 
+
+                    imagen: 'ilustraciones/ARENA PARA GATO.PNG' 
+
+                }, 
+
+                { 
+
+                    id: 8, 
+
+                    nombre: 'Comida para peces', 
+
+                    precio: 23.12, 
+
+                    imagen: 'ilustraciones/Peces.jpg' 
+
+                } 
+
+                , 
+
+                { 
+
+                    id: 9, 
+
+                    nombre: 'Alimento para aves', 
+
+                    precio: 51.59, 
+
+                    imagen: 'ilustraciones/AVES.jpg' 
+
+                }, 
+
+                 { 
+
+                    id: 10, 
+
+                    nombre: 'Alimento para canarios', 
+
+                    precio: 32.12, 
+
+                    imagen: 'ilustraciones/Canary.jpg' 
+
+                }, 
+
+                { 
+
+                    id: 11, 
+
+                    nombre: 'Atun para gato', 
+
+                    precio: 20.53, 
+
+                    imagen: 'ilustraciones/gatos.jpg' 
+
+                }, 
+
+                { 
+
+                    id: 12, 
+
+                    nombre: 'Alimento para iguana', 
+
+                    precio: 2, 
+
+                    imagen: 'ilustraciones/iguana.jpg' 
+
+                }, 
+
+                { 
+
+                    id: 13, 
+
+                    nombre: 'Sobre de atun', 
+
+                    precio: 9.25, 
+
+                    imagen: 'ilustraciones/felix.png' 
+
+                } 
+
+                , 
+
+                { 
+
+                    id: 14, 
+
+                    nombre: 'Alimento alfalfa', 
+
+                    precio: 28.59, 
+
+                    imagen: 'ilustraciones/Alfalfa.png' 
+
+                } 
+
+                , 
+
+                { 
+
+                    id: 15, 
+
+                    nombre: 'Alimento para reptiles', 
+
+                    precio: 65.98, 
+
+                    imagen: 'ilustraciones/Reptiles.jpg' 
+
+                }, 
+
+                { 
+
+                    id: 16, 
+
+                    nombre: 'Dog Chow', 
+
+                    precio: 10.95, 
+
+                    imagen: 'ilustraciones/Adulto.jpg' 
+
+                }, 
+
+                { 
+
+                    id: 17, 
+
+                    nombre: 'Neostrong Pet Milk', 
+
+                    precio: 236.50, 
+
+                    imagen: 'ilustraciones/Milk.png' 
+
+                } 
+
+                , 
+
+                { 
+
+                    id: 18, 
+
+                    nombre: 'Alimento para Hamster', 
+
+                    precio: 21.35, 
+
+                    imagen: 'ilustraciones/Hamster2.png' 
+
+                }, 
+
+  ]; 
+
+ 
+
+            let carrito = []; 
+
+            let total = 0; 
+
+            const DOMitems = document.querySelector('#items'); 
+
+            const DOMcarrito = document.querySelector('#carrito'); 
+
+            const DOMtotal = document.querySelector('#total'); 
+
+            const DOMbotonVaciar = document.querySelector('#boton-vaciar'); 
+
+            const miLocalStorage = window.localStorage; 
+
+
+ 
+
+            // Funciones 
+
+ 
+
+            /** 
+
+            * Dibuja todos los productos a partir de la base de datos. No confundir con el carrito 
+
+            */ 
+
+            function renderizarProductos() { 
+
+                baseDeDatos.forEach((info) => { 
+
+                    // Estructura 
+
+                    const miNodo = document.createElement('div'); 
+
+                    miNodo.classList.add('card', 'col-sm-4'); 
+
+                    // Body 
+
+                    const miNodoCardBody = document.createElement('div'); 
+
+                    miNodoCardBody.classList.add('card-body'); 
+
+                    // Titulo 
+
+                    const miNodoTitle = document.createElement('h5'); 
+
+                    miNodoTitle.classList.add('card-title'); 
+
+                    miNodoTitle.textContent = info.nombre; 
+
+                    // Imagen 
+
+                    const miNodoImagen = document.createElement('img'); 
+
+                    miNodoImagen.classList.add('img-fluid'); 
+
+                    miNodoImagen.setAttribute('src', info.imagen); 
+
+                    // Precio 
+
+                    const miNodoPrecio = document.createElement('p'); 
+
+                    miNodoPrecio.classList.add('card-text'); 
+
+                    miNodoPrecio.textContent = info.precio + 'Q'; 
+
+                    // Boton  
+
+                    const miNodoBoton = document.createElement('button'); 
+
+                    miNodoBoton.classList.add('btn', 'btn-primary'); 
+
+                    miNodoBoton.textContent = '+'; 
+
+                    miNodoBoton.setAttribute('marcador', info.id); 
+
+                    miNodoBoton.addEventListener('click', anyadirProductoAlCarrito); 
+
+                    // Insertamos 
+
+                    miNodoCardBody.appendChild(miNodoImagen); 
+
+                    miNodoCardBody.appendChild(miNodoTitle); 
+
+                    miNodoCardBody.appendChild(miNodoPrecio); 
+
+                    miNodoCardBody.appendChild(miNodoBoton); 
+
+                    miNodo.appendChild(miNodoCardBody); 
+
+                    DOMitems.appendChild(miNodo); 
+
+                }); 
+
+            } 
+
+ 
+
+            /** 
+
+            * Evento para añadir un producto al carrito de la compra 
+
+            */ 
+
+            function anyadirProductoAlCarrito(evento) { 
+
+                // Anyadimos el Nodo a nuestro carrito 
+
+                carrito.push(evento.target.getAttribute('marcador')) 
+
+                // Calculo el total 
+
+                calcularTotal(); 
+
+                // Actualizamos el carrito  
+
+                renderizarCarrito(); 
+
+                // Actualizamos el LocalStorage 
+
+                guardarCarritoEnLocalStorage(); 
+
+            } 
+
+ 
+
+            /** 
+
+            * Dibuja todos los productos guardados en el carrito 
+
+            */ 
+
+            function renderizarCarrito() { 
+
+                // Vaciamos todo el html 
+
+                DOMcarrito.textContent = ''; 
+
+                // Quitamos los duplicados 
+
+                const carritoSinDuplicados = [...new Set(carrito)]; 
+
+                // Generamos los Nodos a partir de carrito 
+
+                carritoSinDuplicados.forEach((item) => { 
+
+                    // Obtenemos el item que necesitamos de la variable base de datos 
+
+                    const miItem = baseDeDatos.filter((itemBaseDatos) => { 
+
+                        // ¿Coincide las id? Solo puede existir un caso 
+
+                        return itemBaseDatos.id === parseInt(item); 
+
+                    }); 
+
+                    // Cuenta el número de veces que se repite el producto 
+
+                    const numeroUnidadesItem = carrito.reduce((total, itemId) => { 
+
+                        // ¿Coincide las id? Incremento el contador, en caso contrario no mantengo 
+
+                        return itemId === item ? total += 1 : total; 
+
+                    }, 0); 
+
+                    // Creamos el nodo del item del carrito 
+
+                    const miNodo = document.createElement('li'); 
+
+                    miNodo.classList.add('list-group-item', 'text-right', 'mx-2'); 
+
+                    miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0].nombre} - ${miItem[0].precio}Q`; 
+
+                    // Boton de borrar 
+
+                    const miBoton = document.createElement('button'); 
+
+                    miBoton.classList.add('btn', 'btn-danger', 'mx-5'); 
+
+                    miBoton.textContent = 'X'; 
+
+                    miBoton.style.marginLeft = '1rem'; 
+
+                    miBoton.dataset.item = item; 
+
+                    miBoton.addEventListener('click', borrarItemCarrito); 
+
+                    // Mezclamos nodos 
+
+                    miNodo.appendChild(miBoton); 
+
+                    DOMcarrito.appendChild(miNodo); 
+
+                }); 
+
+            } 
+
+ 
+
+            /** 
+
+            * Evento para borrar un elemento del carrito 
+
+            */ 
+
+            function borrarItemCarrito(evento) { 
+
+                // Obtenemos el producto ID que hay en el boton pulsado 
+
+                const id = evento.target.dataset.item; 
+
+                // Borramos todos los productos 
+
+                carrito = carrito.filter((carritoId) => { 
+
+                    return carritoId !== id; 
+
+                }); 
+
+                // volvemos a renderizar 
+
+                renderizarCarrito(); 
+
+                // Calculamos de nuevo el precio 
+
+                calcularTotal(); 
+
+                // Actualizamos el LocalStorage 
+
+                guardarCarritoEnLocalStorage(); 
+
+ 
+
+            } 
+
+ 
+
+            /** 
+
+            * Calcula el precio total teniendo en cuenta los productos repetidos 
+
+            */ 
+
+            function calcularTotal() { 
+
+                // Limpiamos precio anterior 
+
+                total = 0; 
+
+                // Recorremos el array del carrito 
+
+                carrito.forEach((item) => { 
+
+                    // De cada elemento obtenemos su precio 
+
+                    const miItem = baseDeDatos.filter((itemBaseDatos) => { 
+
+                        return itemBaseDatos.id === parseInt(item); 
+
+                    }); 
+
+                    total = total + miItem[0].precio; 
+
+                }); 
+
+                // Renderizamos el precio en el HTML 
+
+                DOMtotal.textContent = total.toFixed(2); 
+
+            } 
+
+ 
+
+            /** 
+
+            * Varia el carrito y vuelve a dibujarlo 
+
+            */ 
+
+            function vaciarCarrito() { 
+
+                // Limpiamos los productos guardados 
+
+                carrito = []; 
+
+                // Renderizamos los cambios 
+
+                renderizarCarrito(); 
+
+                calcularTotal(); 
+
+                // Borra LocalStorage 
+
+                localStorage.clear(); 
+
+ 
+
+            } 
+
+ 
+
+            function guardarCarritoEnLocalStorage () { 
+
+                miLocalStorage.setItem('carrito', JSON.stringify(carrito)); 
+
+            } 
+
+ 
+
+            function cargarCarritoDeLocalStorage () { 
+
+                // ¿Existe un carrito previo guardado en LocalStorage? 
+
+                if (miLocalStorage.getItem('carrito') !== null) { 
+
+                    // Carga la información 
+
+                    carrito = JSON.parse(miLocalStorage.getItem('carrito')); 
+
+                } 
+
+            } 
+
+ 
+
+            // Eventos 
+
+            DOMbotonVaciar.addEventListener('click', vaciarCarrito); 
+
+ 
+
+            // Inicio 
+
+            cargarCarritoDeLocalStorage(); 
+
+            renderizarProductos(); 
+
+            calcularTotal(); 
+
+            renderizarCarrito(); 
+
+        } 
+
+ 
+
+    </script> 
+
+</head> 
+
+<body> 
+
+    <div class="container"> 
+
+        <div class="row"> 
+
+            <!-- Elementos generados a partir del JSON --> 
+
+            <main id="items" class="col-sm-8 row"></main> 
+
+            <!-- Carrito --> 
+
+            <aside class="col-sm-4"> 
+
+                <h2>Carrito</h2> 
+
+                <!-- Elementos del carrito --> 
+
+                <ul id="carrito" class="list-group"></ul> 
+
+                <hr> 
+
+                <!-- Precio total --> 
+
+                <p class="text-right">Total: <Guatemala id="total"></Guatemala>Q;</p> 
+
+                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button> 
+
+
+            </aside> 
+
+        </div> 
+
+    </div>  
+
+</br> </br> 
+
+</center> 
+
+<a href="home.html">Inicio</a> - 
+
+<a href="productos.html">Productos</a> - 
+
+<a href="Ubicacion.html">Ubicacion</a> - 
+
+<a href="Politicas.html">Politicas</a> - 
+
+<a href="conocenos.html">Conocenos</a> 
+
+ 
+
+<br> Copyright 2021 Mandanos tus dudas via email a <a href="https://gmail.com">Gmail</a> </br> 
+
+</center></table></tr></td> 
+
+</body> 
+
+</html> 
