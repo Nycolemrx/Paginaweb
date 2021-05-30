@@ -1,0 +1,155 @@
+<html> 
+
+<head> 
+
+<mega name="descriotion" content="Este es un supermercado para Mascotas"> 
+
+<meta name="keyword" content="supermercado, Mascotas, Ubicacion, Politicas, Conocenos, ventas"> 
+
+ 
+
+<title> Pet supermarket </title> 
+
+</head> 
+
+<body background="ilustraciones/FONDO.Jpg" bgcolor="#89e699" text="black"> 
+
+<center><table width="1000"><tr><td> 
+
+<br> 
+
+<img src="ilustraciones/LOGO.PNG" alt="Nuestro logo" width="180" height="125"> 
+
+</br> 
+
+<a href="home.html"> 
+
+<div align="center"> <img src="home/MENU.PNG" alt="Menu principal" width="110" height="80"> </a> 
+
+<a href="productos.html"> 
+
+<img src="home/PRODUCTOS.png" alt="Conoce nuestros productos" width="110" height="80"> </a> 
+
+<a href="https://www.google.com.gt/maps/place/Galerias+La+Pradera/@14.5797894,-90.4986635,16z/data=!4m5!3m4!1s0x8589a39bada6ad3d:0x2b90f785d3d041a6!8m2!3d14.5796604!4d-90.4951722"> 
+
+<div align="center"> <img src="home/ubicacion.PNG" alt="Ubicacion" width="110" height="80"> </a> 
+
+<a href="Politicas.html"> 
+
+<img src="home/Politica.png"  alt="Politica de la empresa" width="110" height="80"></a> 
+
+<a href="conocenos.html"> 
+
+<img src="home/CONOCENOS.png" alt="Quienes somos" width="110" height="80"> </a> 
+
+ 
+
+<br> <br> 
+
+<div align="center"><img src="ilustraciones/supermercado.Jpg" width="1000" height="500"> 
+
+</br> </br> 
+
+ 
+
+<br> <br> 
+
+ 
+
+<td colspan="2"> 
+
+ 
+
+<center><svg width="500" height="45" viewBox="0 0 500 75"> 
+
+  <text x="0" y="55" style="fill: white; stroke: #000; stroke-width: 3px; font-size: 50px; font-weight: bold; font-family: verdana "> 
+
+    Conciente a tu Mejor Amigo Peludo
+
+  </text> 
+
+</svg> 
+
+<center><table border ="0" width="90%" bgcolor="#F4BFAD"> 
+
+<tr></center> 
+
+ 
+
+</td> 
+
+<td></td> 
+
+ 
+
+</tr> 
+
+ 
+
+<tr> 
+
+<td> <center><h2><font color="#3F3F73" face="Bradley Hand ITC"><p> ¿En que puedemos ayudarte? <center></font></h2></p> 
+
+     
+
+ 
+
+<center><h2><font color="black" face="Arial black"><p> Contactanos a <center></font></h2></p> 
+
+ 
+
+<a href="https://mail.google.com/mail/u/0/?hl=es"> 
+
+<div align="center"> <img src="home/Gmail.Jpg" alt="Gmail" width="95" height="95"> </a> 
+
+<br> </br> 
+
+<a href="https://www.facebook.com/"> 
+
+<div align="center"> <img src="home/FACEBOOK.png" alt="facebook" width="95" height="90"> </a> 
+
+<br> </br> 
+
+<a href="https://twitter.com/"> 
+
+<div align="center"> <img src="home/twiiteer.png" alt="Facebook" width="95" height="90"> </a> 
+
+<br> </br> 
+
+<a href="https://www.instagram.com/"> 
+
+<div align="center"> <img src="home/instagram.png" alt="Facebook" width="95" height="90"> </a> 
+
+<br> </br> 
+
+</td>  
+
+</tr> 
+
+</table></center> 
+
+
+<a href="home.html">Inicio</a> - 
+
+<a href="productos.html">Productos</a> - 
+
+<a href="Ubicacion.html">Ubicacion</a> - 
+
+<a href="Politicas.html">Politicas</a> - 
+
+<a href="conocenos.html">Conocenos</a> 
+
+ 
+
+<br> Copyright 2021 Mandanos tus dudas via email a <a href="https://pets.gmail.com">Gmail</a> </br> 
+
+</center></table></tr></td> 
+
+</body> 
+
+ 
+
+</html> 
+
+
+

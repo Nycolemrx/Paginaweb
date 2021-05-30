@@ -1,2 +1,0 @@
-# Paginaweb
-Pet SuperMarket
